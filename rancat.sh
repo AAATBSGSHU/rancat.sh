@@ -16,5 +16,4 @@ fi
 
 selected_file="${txt_files[RANDOM % ${#txt_files[@]}]}"
 
-echo "Running 'cat' on: $selected_file"
 cat "$selected_file"
