@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FOLDER_PATH="/path/to/your/foldert" 
+FOLDER_PATH="/path/to/your/folder"
 
 if [ ! -d "$FOLDER_PATH" ]; then
   echo "The specified folder does not exist."
